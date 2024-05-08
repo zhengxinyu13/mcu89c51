@@ -1,5 +1,4 @@
 /********************************************************************
- * Copyright(c) 2023-2023 Grayson Zheng.
  * File: bit.h
  * Description: 89C51/89C52 main header files.
  * Version: 1.0
@@ -16,7 +15,6 @@
 #ifndef __MAIN_H__
 #define __MAIN_H__
 
-#include "regx52.h"
 #include "STC89C5xRC-rdp.h"
 
 #define HIGH        1

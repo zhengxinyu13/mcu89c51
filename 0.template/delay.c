@@ -1,5 +1,4 @@
 /********************************************************************
- * Copyright(c) 2023-2023 Grayson Zheng.
  * File: delay.h
  * Description: Delay function library based on 11.0592MHz
  * crystal oscillator.
