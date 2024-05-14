@@ -1,4 +1,4 @@
-LX51 LINKER/LOCATER V4.66.87.0                                                          05/08/2024  15:13:19  PAGE 1
+LX51 LINKER/LOCATER V4.66.87.0                                                          05/14/2024  11:46:00  PAGE 1
 
 
 LX51 LINKER/LOCATER V4.66.87.0, INVOKED BY:
@@ -67,7 +67,7 @@ SETUP/MAIN                  ----- -----  ----- -----
 PUBLIC SYMBOLS OF MODULE:  .\Objects\build (?C_STARTUP)
 
 
-LX51 LINKER/LOCATER V4.66.87.0                                                        05/08/2024  15:13:19  PAGE 2
+LX51 LINKER/LOCATER V4.66.87.0                                                        05/14/2024  11:46:00  PAGE 2
 
 
       VALUE       CLASS    TYPE      PUBLIC SYMBOL NAME
@@ -135,7 +135,7 @@ PUBLIC SYMBOLS OF MODULE:  .\Objects\build (?C_STARTUP)
 *SFR* 00000080H.7 DATA     BIT       P07
 *SFR* 00000090H   DATA     BYTE      P1
 *SFR* 00000090H.0 DATA     BIT       P10
-LX51 LINKER/LOCATER V4.66.87.0                                                        05/08/2024  15:13:19  PAGE 3
+LX51 LINKER/LOCATER V4.66.87.0                                                        05/14/2024  11:46:00  PAGE 3
 
 
 *SFR* 00000090H.1 DATA     BIT       P11
@@ -203,7 +203,7 @@ PUBLIC SYMBOLS OF MODULE:  .\Objects\build (?C_STARTUP)
 *SFR* 00000098H.5 DATA     BIT       SM2
 *SFR* 00000081H   DATA     BYTE      SP
 *SFR* 000000B0H.4 DATA     BIT       T0
-LX51 LINKER/LOCATER V4.66.87.0                                                        05/08/2024  15:13:19  PAGE 4
+LX51 LINKER/LOCATER V4.66.87.0                                                        05/14/2024  11:46:00  PAGE 4
 
 
 *SFR* 000000B0H.5 DATA     BIT       T1
@@ -271,7 +271,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\build (?C_STARTUP)
       01000031H   LINE      CODE     ---       #133
       01000033H   LINE      CODE     ---       #134
       01000034H   LINE      CODE     ---       #135
-LX51 LINKER/LOCATER V4.66.87.0                                                        05/08/2024  15:13:19  PAGE 5
+LX51 LINKER/LOCATER V4.66.87.0                                                        05/14/2024  11:46:00  PAGE 5
 
 
       01000035H   LINE      CODE     ---       #136
@@ -339,7 +339,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\build (?C_STARTUP)
       000000B0H.2 SFRSYM    DATA     BIT       P32
       000000A0H.3 SFRSYM    DATA     BIT       P23
       00000090H.4 SFRSYM    DATA     BIT       P14
-LX51 LINKER/LOCATER V4.66.87.0                                                        05/08/2024  15:13:19  PAGE 6
+LX51 LINKER/LOCATER V4.66.87.0                                                        05/14/2024  11:46:00  PAGE 6
 
 
       00000089H   SFRSYM    DATA     BYTE      TMOD
@@ -407,7 +407,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\build (?C_STARTUP)
       000000D0H.4 SFRSYM    DATA     BIT       RS1
       000000B8H.5 SFRSYM    DATA     BIT       PT2
       00000088H.4 SFRSYM    DATA     BIT       TR0
-LX51 LINKER/LOCATER V4.66.87.0                                                        05/08/2024  15:13:19  PAGE 7
+LX51 LINKER/LOCATER V4.66.87.0                                                        05/14/2024  11:46:00  PAGE 7
 
 
       00000088H.6 SFRSYM    DATA     BIT       TR1
@@ -435,17 +435,17 @@ SYMBOL TABLE OF MODULE:  .\Objects\build (?C_STARTUP)
       000000D0H   SFRSYM    DATA     BYTE      PSW
 
       01000042H   BLOCK     CODE     ---       LVL=0
-      01000042H   LINE      CODE     ---       #31
+      01000042H   LINE      CODE     ---       #28
+      01000042H   LINE      CODE     ---       #29
       01000042H   LINE      CODE     ---       #32
-      01000042H   LINE      CODE     ---       #35
       ---         BLOCKEND  ---      ---       LVL=0
 
       0100003DH   BLOCK     CODE     ---       LVL=0
-      0100003DH   LINE      CODE     ---       #40
-      0100003DH   LINE      CODE     ---       #41
-      0100003DH   LINE      CODE     ---       #45
+      0100003DH   LINE      CODE     ---       #37
+      0100003DH   LINE      CODE     ---       #38
+      0100003DH   LINE      CODE     ---       #42
+      01000040H   LINE      CODE     ---       #44
       01000040H   LINE      CODE     ---       #47
-      01000040H   LINE      CODE     ---       #50
       ---         BLOCKEND  ---      ---       LVL=0
 
       ---         MODULE    ---      ---       DELAY
@@ -475,7 +475,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\build (?C_STARTUP)
       000000B0H.3 SFRSYM    DATA     BIT       INT1
       00000098H.1 SFRSYM    DATA     BIT       TI
       000000E5H   SFRSYM    DATA     BYTE      ISP_CMD
-LX51 LINKER/LOCATER V4.66.87.0                                                        05/08/2024  15:13:19  PAGE 8
+LX51 LINKER/LOCATER V4.66.87.0                                                        05/14/2024  11:46:00  PAGE 8
 
 
       000000CBH   SFRSYM    DATA     BYTE      RCAP2H
@@ -543,7 +543,7 @@ SYMBOL TABLE OF MODULE:  .\Objects\build (?C_STARTUP)
       0000008EH   SFRSYM    DATA     BYTE      AUXR
       000000C8H.0 SFRSYM    DATA     BIT       CP_RL2
       000000E0H   SFRSYM    DATA     BYTE      ACC
-LX51 LINKER/LOCATER V4.66.87.0                                                        05/08/2024  15:13:19  PAGE 9
+LX51 LINKER/LOCATER V4.66.87.0                                                        05/14/2024  11:46:00  PAGE 9
 
 
       000000A8H.1 SFRSYM    DATA     BIT       ET0
@@ -609,14 +609,14 @@ SYMBOL TABLE OF MODULE:  .\Objects\build (?C_STARTUP)
       00000004H   SYMBOL    DATA     WORD      i
       00000002H   SYMBOL    DATA     WORD      j
       ---         BLOCKEND  ---      ---       LVL=1
+      01000003H   LINE      CODE     ---       #19
+      01000003H   LINE      CODE     ---       #20
+LX51 LINKER/LOCATER V4.66.87.0                                                        05/14/2024  11:46:00  PAGE 10
+
+
       01000003H   LINE      CODE     ---       #22
-      01000003H   LINE      CODE     ---       #23
-LX51 LINKER/LOCATER V4.66.87.0                                                        05/08/2024  15:13:19  PAGE 10
-
-
-      01000003H   LINE      CODE     ---       #25
-      0100000DH   LINE      CODE     ---       #26
-      01000022H   LINE      CODE     ---       #27
+      0100000DH   LINE      CODE     ---       #23
+      01000022H   LINE      CODE     ---       #24
       ---         BLOCKEND  ---      ---       LVL=0
 
       01000023H   BLOCK     CODE     ---       LVL=0
@@ -625,18 +625,18 @@ SYMBOL TABLE OF MODULE:  .\Objects\build (?C_STARTUP)
       00000006H   SYMBOL    DATA     BYTE      j
       00000005H   SYMBOL    DATA     BYTE      k
       ---         BLOCKEND  ---      ---       LVL=1
-      01000023H   LINE      CODE     ---       #32
+      01000023H   LINE      CODE     ---       #29
+      01000023H   LINE      CODE     ---       #30
       01000023H   LINE      CODE     ---       #33
-      01000023H   LINE      CODE     ---       #36
-      01000024H   LINE      CODE     ---       #37
-      01000026H   LINE      CODE     ---       #38
-      01000028H   LINE      CODE     ---       #39
-      0100002AH   LINE      CODE     ---       #40
-      0100002AH   LINE      CODE     ---       #41
-      0100002AH   LINE      CODE     ---       #42
-      0100002CH   LINE      CODE     ---       #43
-      0100002EH   LINE      CODE     ---       #44
-      01000030H   LINE      CODE     ---       #45
+      01000024H   LINE      CODE     ---       #34
+      01000026H   LINE      CODE     ---       #35
+      01000028H   LINE      CODE     ---       #36
+      0100002AH   LINE      CODE     ---       #37
+      0100002AH   LINE      CODE     ---       #38
+      0100002AH   LINE      CODE     ---       #39
+      0100002CH   LINE      CODE     ---       #40
+      0100002EH   LINE      CODE     ---       #41
+      01000030H   LINE      CODE     ---       #42
       ---         BLOCKEND  ---      ---       LVL=0
 
 

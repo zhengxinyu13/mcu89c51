@@ -5,11 +5,8 @@
  * Date: 2024-04-25
  * Author: zhengxinyu13@gmail.com
  * ---------- Revision History ----------
- * <version>
- * <date>
- * <author>
- * <desc>
- * Modified to be suitable to the new coding rules in all functions.
+ * <version> <date> <author> <desc>
+ * 
  ********************************************************************/
 
 #ifndef __MAIN_H__

@@ -7,11 +7,8 @@
  * Date: 2023-07-17
  * Author: zhengxinyu13@gmail.com
  * ---------- Revision History ----------
- * <version>
- * <date>
- * <author>
- * <desc>
- * Modified to be suitable to the new coding rules in all functions.
+ * <version> <date> <author> <desc>
+ * 
  ********************************************************************/
 
 #ifndef __DELAY_H__

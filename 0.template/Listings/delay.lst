@@ -1,4 +1,4 @@
-C51 COMPILER V9.57.0.0   DELAY                                                             05/08/2024 15:13:19 PAGE 1   
+C51 COMPILER V9.57.0.0   DELAY                                                             05/14/2024 11:46:00 PAGE 1   
 
 
 C51 COMPILER V9.57.0.0, COMPILATION OF MODULE DELAY
@@ -16,43 +16,40 @@ line level    source
    6           * Date: 2023-07-17
    7           * Author: zhengxinyu13@gmail.com
    8           * ---------- Revision History ----------
-   9           * <version>
-  10           * <date>
-  11           * <author>
-  12           * <desc>
-  13           * Modified to be suitable to the new coding rules in all functions.
-  14           ********************************************************************/
-  15          
-  16          #include "delay.h"
-  17          
-  18          /**
-  19           * @brief Delay function in milliseconds.
-  20           * @param Enter the delay time in milliseconds.
-  21           */
-  22          void delay_ms(uint16_t xms)
-  23          {
-  24   1          uint16_t i,j;
-  25   1          for (i = 0; i < xms; i++)
-  26   1              for (j = 0; j < 112; j++);
-  27   1      }
-  28          
-  29          /**
-  30           * @brief Delay by one second.
-  31           */
-  32          void delay_1s(void)
-  33          {
-  34   1          uint8_t i, j, k;
-  35   1      
-  36   1          _nop_();
-  37   1          i = 8;
-  38   1          j = 1;
-  39   1          k = 243;
-  40   1          do {
-  41   2              do {
-  42   3                  while (--k);
-  43   3              } while (--j);
-  44   2          } while (--i);
-  45   1      }
+   9           * <version> <date> <author> <desc>
+  10           * 
+  11           ********************************************************************/
+  12          
+  13          #include "delay.h"
+  14          
+  15          /**
+  16           * @brief Delay function in milliseconds.
+  17           * @param Enter the delay time in milliseconds.
+  18           */
+  19          void delay_ms(uint16_t xms)
+  20          {
+  21   1          uint16_t i,j;
+  22   1          for (i = 0; i < xms; i++)
+  23   1              for (j = 0; j < 112; j++);
+  24   1      }
+  25          
+  26          /**
+  27           * @brief Delay by one second.
+  28           */
+  29          void delay_1s(void)
+  30          {
+  31   1          uint8_t i, j, k;
+  32   1      
+  33   1          _nop_();
+  34   1          i = 8;
+  35   1          j = 1;
+  36   1          k = 243;
+  37   1          do {
+  38   2              do {
+  39   3                  while (--k);
+  40   3              } while (--j);
+  41   2          } while (--i);
+  42   1      }
 
 
 MODULE INFORMATION:   STATIC OVERLAYABLE
@@ -62,11 +59,11 @@ MODULE INFORMATION:   STATIC OVERLAYABLE
    PDATA SIZE       =   ----    ----
    DATA SIZE        =   ----    ----
    IDATA SIZE       =   ----    ----
-C51 COMPILER V9.57.0.0   DELAY                                                             05/08/2024 15:13:19 PAGE 2   
-
    BIT SIZE         =   ----    ----
    EDATA SIZE       =   ----    ----
    HDATA SIZE       =   ----    ----
+C51 COMPILER V9.57.0.0   DELAY                                                             05/14/2024 11:46:00 PAGE 2   
+
    XDATA CONST SIZE =   ----    ----
    FAR CONST SIZE   =   ----    ----
 END OF MODULE INFORMATION.
